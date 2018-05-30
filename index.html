@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang ="pl-PL">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant|Source+Serif+Pro|Roboto:100i" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<title>Sakura Code - Tworzenie stron internetowych</title>
+	</head>
+	<body>
+		<div class="preloader-overlay">
+			<div class="preloader"></div>
+		</div>
+		<div class="container">
+			<header>
+				<video class="sakura-blossoms" autoplay muted loop>
+					<source src="media/cherry.mp4" type="video/mp4">
+				</video>
+				<nav class="navbar">
+					<div class="navbar-logo">
+						<img class="navbar-logo__sakura-code" src="media/logo.png" alt="Logo-firmy">
+					</div>
+					<div class="navbar-links">
+						<a href="#" class="navbar-links__home">Home</a>
+						<a href="#" class="navbar-links__about-us">About us</a>
+						<a href="#" class="navbar-links__offer">Offer</a>
+						<a href="#" class="navbar-links__portfolio">Portfolio</a>
+						<a href="#" class="navbar-links__contact">Contact</a>
+					</div>
+				</nav>
+				<!-- 											///////////////////////////////////////////////////  hamburger menu START -->
+				<div class="hamburger-menu">
+					<img class="hamburger-menu__logo" src="media/logo.png" alt="Logo-firmy">
+					<span class="hamburger-menu__open-button">
+						<img src="media/menu-options.png" alt="menu">
+					</span>
+					<div class="overlay">  <!-- nie na całą wysokosc -->
+						<a class="overlay__close-button"> 
+							<img src="media/cancel.png" alt="zamknij">
+						</a>
+						<div class="overlay__content">
+							<a href="#" class="navbar-links__home">Home</a>
+							<a href="#" class="navbar-links__about-us">About us</a>
+							<a href="#" class="navbar-links__offer">Offer</a>
+							<a href="#" class="navbar-links__portfolio">Portfolio</a>
+							<a href="#" class="navbar-links__contact">Contact</a>
+						</div>
+					</div>
+				</div>
+															<!-- ////////////////////// HAMBURGER MENU END ///////////////////////// -->
+				<div class="site-title"> <!-- zmieniac width w RWD-->
+					<h1>We're Sakura Code, a branding and digital agency</h1>
+				</div>
+				<a href="#" class="arrow-down">
+					&darr;
+				</a>				
+			</header>
+			<div class="about-us">
+				<h2 class="about-us__title">
+					About us
+				</h2>
+				<p class="about-us__description">
+					Sakura Code helps clients bring brands to life through strategy and design, all in the service of solving problems and achieving business-wide objectives.
+				</p>
+			</div>
+			<div class="offer">
+				<h2 class="offer-title">
+					What we offer
+				</h2>
+				<div class="offer-content">
+					<div class="content-box">
+						<div class="content-box__icon">
+							<img class="svg" src="media/planning.svg" alt="strategy">
+						</div>
+						<div class="content-box__description">
+							<p>
+								Digitalization of business, product development strategy, static analysis, audit, research of users of callers</p>
+						</div>
+					</div>
+					<div class="content-box">
+						<div class="content-box__icon">
+							<img class="svg" src="media/graphic-design.svg" alt="graphic-design">
+						</div>
+						<div class="content-box__description">
+							<p>
+								Visual identification, advertising creations, graphic design, prototypes, information architecture
+							</p>
+						</div>
+					</div>
+					<div class="content-box">
+						<div class="content-box__icon">
+							<img class="svg" src="media/settings.svg" alt="web technology">
+						</div>
+						<div class="content-box__description">
+							<p>
+								Website, E-commerce, intranet, landing page, web applications, website portals
+							</p>
+						</div>
+					</div>
+					<div class="content-box">
+						<div class="content-box__icon">
+							<img class="svg" src="media/microphone.svg" alt="multimedia">
+						</div>
+						<div class="content-box__description">
+							<p>
+								Advertising films, corporate videos, training videos, animated infogrags, animations, video explainers
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- dziecko 3 stopnia dziedziczy od 1stopnia, a nie od dziecka 2 stopnia np: st1 portfolio, st2 portfolio__element, st3 portfolio__icon zamiast portfolio__element__icon-->
+			<div class="portfolio">
+				<h2 class="portfolio__title">
+					Portfolio
+				</h2>
+				<div class="portfolio__projects"> <!--pozmieniac wielkosci dla klas overlay i nazwac je odosobniono-->
+					<div class="portfolio__left-side">
+						<div class="portfolio__voyage">													
+							<a class="portfolio-icon" href="">
+								<img class="portfolio__icon" src="media/voyage.jpg" alt="voyage site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+						<div class="portfolio__agency">
+							<a class="portfolio-icon" href="">
+								<img class="portfolio__icon" src="media/agency.jpg" alt="interactive agency site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+						<div class="portfolio__pizzeria">
+							<a class="portfolio-icon" href="">			
+								<img class="portfolio__icon" src="media/pizzeria.jpg" alt="pizzeria site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+						<div class="portfolio__clivuan">
+							<a class="portfolio-icon" href="">			
+								<img class="portfolio__icon" src="media/clivuan.jpg" alt="clivuan site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+						<div class="portfolio__muse">
+							<a class="portfolio-icon" href="">	
+								<img class="portfolio__icon" src="media/muse.jpg" alt="muse site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+						<div class="portfolio__gratia">
+							<a class="portfolio-icon" href="">				
+								<img class="portfolio__icon" src="media/gratia.jpg" alt="gratia restaurant site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+						<div class="portfolio__travel">
+							<a class="portfolio-icon" href="">
+								<img class="portfolio__icon" src="media/travel.jpg" alt="travel blog site">
+							</a>
+							<a href="" class="text">
+								swdsdsdsdsddsdsdsdsdsds
+							</a>
+						</div>
+					</div>
+					<div class="portfolio__right-side">
+						<div class="portfolio__fooseshoes">
+							<a class="portfolio-icon" href="">									
+								<img class="portfolio__icon" src="media/fooseshoes.png" alt="fooseshoes site">
+							</a>
+						</div>
+						<div class="portfolio__snow">
+							<a class="portfolio-icon" href="">																
+								<img class="portfolio__icon" src="media/snow.jpg" alt="snow blog site">
+							</a>
+						</div>
+						<div class="portfolio__timessquare">
+							<a class="portfolio-icon" href="">																
+								<img class="portfolio__icon" src="media/timessquare.jpg" alt="timessquare site">
+							</a>
+						</div>
+						<div class="portfolio__infusion">
+							<a class="portfolio-icon" href="">											
+								<img class="portfolio__icon" src="media/infusion.jpg" alt="infusion site">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				
+			</footer>
+		<script src="scripts/smooth-scrolling.js"></script>
+		<script src="scripts/sticky-navbar.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				window.onload = function() {
+					$(".preloader-overlay").fadeOut(500,function() {
+						$(".preloader-overlay").remove();
+					});
+				}
+			})
+
+		</script>
+	</body>
+</html>
